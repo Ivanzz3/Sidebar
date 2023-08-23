@@ -1,0 +1,80 @@
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+	--light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+p {
+  color: var(--text-color);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.menu-burguer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+}
+
+.title {
+  display: flex;
+  margin-left: 78px;
+  color: var(--text-color);
+}
+
+.menu-burguer {
+  background-color: var(--green);
+}
+
+.icon-lupa {
+  padding: 14px 26px 34px;
+}
+
+.title-menu {
+  padding: 14px 26px 6px;
+}
+
+.icon-dashboard {
+  padding: 14px 26px 38px;
+}
+
+.icon-pets {
+  padding: 14px 26px 38px;
+}
+
+.icon-clientes {
+  padding: 14px 26px 38px;
+}
+
+.icon-vets {
+  padding: 14px 26px 38px;
+}
+
+.icon-ajustes {
+  padding: 14px 26px 38px;
+}
+
+.log-out {
+  padding: 31px 26px 25px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 356px;
+  background-color: var(--light-green);
+}
+
