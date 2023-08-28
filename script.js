@@ -1,3 +1,9 @@
-const menuBurguer = document.querySelectorAll('p, h3'); 
+const menuBurguer = document.querySelectorAll('span, .user-perfil, #logo-pata');
 
-if menuBurguer {}
+const activeMenu = () => {
+  menuBurguer.forEach(element => {
+    element.classList.toggle('display-none');
+  });
+  document.querySelector('.menu-burguer').classList.toggle('active-menu');
+}
+console.log(menuBurguer);
